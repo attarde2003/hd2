@@ -74,11 +74,15 @@ section.content img
     opacity: 0.5;
     mix-blend-mode: overlay;
 }
+
 .linear-text-gradient {
-	/*background: linear-gradient(to top, red, yellow);*/
-	background: radial-gradient(circle, red, yellow);
+	background: linear-gradient(to top, red, rgb(191, 237, 84));
 	-webkit-background-clip: text;
 	background-clip: text;
-	font-size: 0.4em;
+	font-size: 0.5em;
 	color: transparent;
+}
+.tp{
+	font-size: 0.5em;
+	color: red;
 }
